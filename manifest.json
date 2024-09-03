@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "TESTE DO CGATLINCE",
+    "version": "1.0",
+    "description": "Extensão para adicionar funcionalidades ao WhatsApp Web -  TESTE",
+    "permissions": [
+      "activeTab",
+      "https://web.whatsapp.com/*"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://web.whatsapp.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "iframe.html"
+            ],
+            "matches": [
+                "https://web.whatsapp.com/*"
+            ]
+        }
+    ]
+  }
+  

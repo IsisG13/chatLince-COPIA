@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#token-request label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 175%;
+  margin-top: 15%;
+}
+
+#token-request img {
+  width: 54%;
+  margin-left: 20%;
+}
+
+#logo-bot {
+  width: 81%;
+}
+
+#token-input {
+  padding: 4%;
+  height: 23px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 6% 0 4% 0;
+}
+
+#submit-token {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #751DCA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+}
+
+#toggle-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #751DCA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit-token:hover, #toggle-button:hover {
+  background-color: #511788;
+}
+
+#token-request {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#status-indicator {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#chat-info {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 22% 85%;
+}
+
+#chat-info p {
+  margin: 5px 0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+  display: none;
+  /* Inicialmente escondido */
+}

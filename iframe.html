@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot WhatsApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="token-request">
+        <img alt="Logo da Prefiro delivery" src="logoPrefiroDelivery.png">
+        <label for="token-input">Digite seu token para entrar no LinceChat:</label>
+        <input type="text" id="token-input" placeholder="Ex.token: testtoken_00 "/>
+        <button id="submit-token">Enviar</button>
+        <div id="error-message" class="error-message">Token inválido! Por favor, insira um token válido.</div>
+    </div>
+    <div id="status-indicator" style="display:none;">ON</div>
+    <br/>
+
+    <div id="chat-info" style="display:none;">
+        <img id="logo-bot" alt="Logo da Prefiro Delivery" src="logoPrefiroDelivery.png">
+        <p><strong>Contato:</strong> <span id="chat-title">...</span></p>
+    </div>
+    <button id="toggle-button" style="display:none;">Bot OFF</button>
+
+    <script src="iframe.js"></script>
+</body>
+</html>
