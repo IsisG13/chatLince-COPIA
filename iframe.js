@@ -14,7 +14,7 @@ function updateUI(data) {
 
     chatTitleElement.textContent = isActive ? data.chatTitle || '...' : '';  
 
-    toggleButton.textContent = isActive ? 'Bot OFF' : 'Bot ON';  
+    toggleButton.textContent = isActive ? 'Desligar Bot' : 'Ligar Bot';  
 }  
 
 function toggleBot() {  
