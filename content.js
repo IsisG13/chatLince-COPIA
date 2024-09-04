@@ -1,3 +1,5 @@
+// CONTENT.JS
+
 let isActive = true; // Estado inicial do bot
 
 // Função para injetar o iframe

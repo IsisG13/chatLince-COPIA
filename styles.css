@@ -18,7 +18,7 @@ body {
 }
 
 #logo-bot {
-  width: 81%;
+  width: 93%;
 }
 
 #token-input {
@@ -68,13 +68,19 @@ body {
 }
 
 #chat-info {
-  margin-bottom: 20px;
-  display: grid;
-  grid-template-columns: 22% 85%;
+  margin-bottom: 8px;
+  grid-template-columns: 16% 79% 13%;
+  align-items: center;
 }
 
 #chat-info p {
   margin: 5px 0;
+  font-size: 86%;
+}
+
+#chat-info a {
+  text-decoration: none;
+  font-size: 86%;
 }
 
 .error-message {

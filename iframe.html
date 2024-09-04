@@ -1,3 +1,5 @@
+<!-- IFRAME.HTML -->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -7,23 +9,34 @@
     <title>Bot WhatsApp</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="token-request">
         <img alt="Logo da Prefiro delivery" src="logoPrefiroDelivery.png">
         <label for="token-input">Digite seu token para entrar no LinceChat:</label>
-        <input type="text" id="token-input" placeholder="Ex.token: testtoken_00 "/>
+        <input type="text" id="token-input" placeholder="Ex.token: testtoken_00 " />
         <button id="submit-token">Enviar</button>
         <div id="error-message" class="error-message">Token inválido! Por favor, insira um token válido.</div>
     </div>
     <div id="status-indicator" style="display:none;">ON</div>
-    <br/>
+    <br />
 
     <div id="chat-info" style="display:none;">
         <img id="logo-bot" alt="Logo da Prefiro Delivery" src="logoPrefiroDelivery.png">
-        <p><strong>Contato:</strong> <span id="chat-title">...</span></p>
+        <p>
+            <strong>Contato: <span id="chat-title">...</span></strong>
+            <br />
+            Chat da prefiroDelivery
+        </p>
+        <a href="">❌</a>
     </div>
-    <button id="toggle-button" style="display:none;">Bot OFF</button>
+    <hr id="HR" style="display: none;"/>
+
+    <div>
+        <button id="toggle-button" style="display:none;">Bot OFF</button>
+    </div>
 
     <script src="iframe.js"></script>
 </body>
+
 </html>

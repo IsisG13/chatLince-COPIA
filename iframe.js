@@ -1,3 +1,5 @@
+// IFRAME.JS
+
 let isActive = false;  
 
 function updateUI(data) {  
@@ -32,6 +34,7 @@ function handleTokenSubmit() {
         document.getElementById('status-indicator').style.display = 'block';  
         document.getElementById('chat-info').style.display = 'grid';  
         document.getElementById('toggle-button').style.display = 'block';  
+        document.getElementById('HR').style.display = 'block';  
 
         // Envie mensagem para o content script para atualizar o iframe  
         window.parent.postMessage({ type: 'update', isActive, chatTitle: 'Nome do Contato' }, '*');  
